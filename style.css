@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    color: black;
+    transition: all;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    background-color: rgb(204, 184, 222);
+}
+
+.container {
+    text-align: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(215, 206, 202);
+}
+
+nav {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 900;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 0 23px;
+}
+
+div.logo {
+    display: flex;
+    margin: 0 23px;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: auto;
+    font: bold;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.container select {
+    margin: 5px;
+    padding: 5px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form input[type='number'],
+select,
+label {
+    margin: 5px 0;
+    margin-bottom: 5px;
+    width: auto;
+    font-size: 16px;
+}
+
+.container form label {
+    font-size: 16px;
+}
+
+.container .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #256eb7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: #5482b3;
+}
+
+.container form input[type='number'] {
+    width: 100px;
+    font-size: 16px;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+table {
+    width: 50vw;
+    text-align: center;
+    border: solid 2px black;
+    /* margin: 2% auto; */
+
+}
+
+
+.align {
+    margin-bottom: 12px;
+    text-align: center;
+    margin: 12px 4%;
+    font: bold;
+}
+
+.tablerow {
+    text-align: center;
+    /* Center text inside th elements */
+    padding: 8px;
+}
+
+table {
+    width: 80%;
+    /* margin: 0 200px; */
+    /* Center the table */
+    border-collapse: collapse;
+    /* margin-left: 20px; */
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.vijay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid ; */
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    /* margin: 0 670px; */
+
+}
+.width-full{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}

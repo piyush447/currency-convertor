@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+
+<body>
+    <nav>
+        <div class="logo">My Currency Converter</div>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Choose A Currency To Convert</h2>
+        <form action="/action.php" method="get">
+            <label for="Quantity">Choose A Quantity:</label>
+            <input type="number" name="quantity" min="1" max="1000000" id="quantity">
+            <label for="currency">Choose a Currency:</label>
+            <select id="currencyValue" name="currency">
+                <option value="INR">Indian Ruppess</option>
+                <option value="USD">United States</option>
+                <option value="Euro">Europe</option>
+            </select>
+            <button class="btn" type="button">Submit Now</button>
+        </form>
+        <div class="vijay">
+            <div class="width-full">
+                <table>
+                    <caption class="align">Converted Currency table:-</caption>
+                    <thead>
+                        <tr class="tablerow">
+                            <th>Currency</th>
+                            <th>Currency Code</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tablebody">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <script src="java.js"></script>
+            <script src="app.js"></script>
+
+</html>
